@@ -25,10 +25,8 @@ import logging
 
 import pika
 
-from .config import (BROKER_PASS, BROKER_PORT,
-                     BROKER_URL, BROKER_USER,
-                     EXCHANGE, ROUTING_KEY,
-                     STATUS_QUEUE)
+from .config import (BROKER_PASS, BROKER_PORT, BROKER_URL, BROKER_USER,
+                     EXCHANGE, ROUTING_KEY, STATUS_QUEUE)
 
 
 class Publisher:
